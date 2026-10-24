@@ -18,7 +18,7 @@ services:
       retries: 10
 
   app:
-    image: task-manager:1.0
+    image: ghcr.io/laarifimohfst-maker/springboot-task-manager-devops:${IMAGE_TAG}
     container_name: task-manager-app
     ports:
       - "8080:8080"
